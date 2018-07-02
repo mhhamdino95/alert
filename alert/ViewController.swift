@@ -10,16 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+  
+    
+    @IBAction func alertBtn(_ sender: UIButton) {
+    
+    var alert=UIAlertController(title: "msg", message: "hi welcome to my app", preferredStyle: .alert)
+    present(alert, animated: true, completion: nil)
+    
+}
+    
 }
 

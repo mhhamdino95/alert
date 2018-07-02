@@ -12,6 +12,8 @@
 		A177E086201B550B00083AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A177E084201B550B00083AB9 /* Main.storyboard */; };
 		A177E088201B550B00083AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A177E087201B550B00083AB9 /* Assets.xcassets */; };
 		A177E08B201B550B00083AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A177E089201B550B00083AB9 /* LaunchScreen.storyboard */; };
+		A177E093201B552200083AB9 /* gv.swift in Sources */ = {isa = PBXBuildFile; fileRef = A177E092201B552200083AB9 /* gv.swift */; };
+		A177E099201B567900083AB9 /* customBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A177E098201B567900083AB9 /* customBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A177E087201B550B00083AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A177E08A201B550B00083AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A177E08C201B550B00083AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A177E092201B552200083AB9 /* gv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gv.swift; sourceTree = "<group>"; };
+		A177E098201B567900083AB9 /* customBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		A177E074201B550B00083AB9 = {
 			isa = PBXGroup;
 			children = (
+				A177E098201B567900083AB9 /* customBtn.swift */,
+				A177E092201B552200083AB9 /* gv.swift */,
 				A177E07F201B550B00083AB9 /* alert */,
 				A177E07E201B550B00083AB9 /* Products */,
 			);
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A177E083201B550B00083AB9 /* ViewController.swift in Sources */,
+				A177E099201B567900083AB9 /* customBtn.swift in Sources */,
+				A177E093201B552200083AB9 /* gv.swift in Sources */,
 				A177E081201B550B00083AB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
